@@ -1,5 +1,7 @@
 # Python
 
+sentence = raw_input()
+
 # Ham tách chữ
 def break_words(stuff):
     """This function will break up words for us."""
@@ -42,3 +44,12 @@ def print_first_and_last_sorted(sentence):
     words = sort_sentence(sentence)
     print_first_word(words)
     print_last_word(words)
+
+print "The sentence returns the sorted words:"
+    sort_sentence(sentence)
+
+print "The first and last words of the sentence:"
+    print_first_and_last(sentence)
+
+print "The first and last words of sentence after sorted:"
+    print_first_and_last_sorted(sentence)
