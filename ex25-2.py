@@ -43,7 +43,7 @@ def print_first_and_last(sentence):
     words = break_words(sentence)
     first = print_first_word(words)
     last = print_last_word(words)
-    print "--->The first and last words of the sentence: %s & %s" % (first,last)
+    print "--->The first and last words of the sentence: ->[%s]<- & ->[%s]<-" % (first,last)
 
 # Hàm in chữ đàu và cuối trong 1 chuỗi đã được sắp xếp (sort) trước đó
 def print_first_and_last_sorted(sentence):
@@ -51,8 +51,8 @@ def print_first_and_last_sorted(sentence):
     words = sort_sentence(sentence)
     first = print_first_word(words)
     last = print_last_word(words)
-    print "--->The first and last words of sentence after sorted:%s & %s" % (first,last)
+    print "--->The first and last words of sentence after sorted:->[%s]<- & ->[%s]<-" % (first,last)
 
-print "The sentence returns the sorted words: %s" % (sort_sentence(sentence))
+print "--->The sentence returns the sorted words: %s" % (sort_sentence(sentence))
 print_first_and_last(sentence)
 print_first_and_last_sorted(sentence)
