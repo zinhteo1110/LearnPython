@@ -1,0 +1,7 @@
+1. muc dich build dc repository cua freeswich o Local de tien cho viec cai dat nhanh chong freeswitch
+2. trong qua trinh yum install thif bat duoc cac link install cua freeswitch
+3. khi copy/paste all links vao 1 file.txt thi xuat hien them 1 line(empty blank)
+4. link nay khi paste o Word2016 thi hyperlink bi an di
+5. phai lam them thao tac noi chuoi "http://files.freeswitch.org/yum-1.6/7/x86_64/+...."
+6. file editlink3.py & repository3.txt la file hoan chinh nhat, ket qua dung theo yeu cau
+7. du lieu goc de thuc hien la file repository-original.txt
